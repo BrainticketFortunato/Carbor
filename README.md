@@ -130,4 +130,12 @@ Der vollständige Lizenztext steht in [LICENSE](LICENSE).
 
 ## Drittanbieter
 
-Hinweise zu verwendeten Programmen, Bibliotheken und Diensten stehen in den Dateien zu Drittanbieterhinweisen im Projekt.
+Hinweise zu verwendeten Programmen, Bibliotheken und Diensten stehen in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+
+## Mitwirken und Sicherheit
+
+- Beiträge: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Sicherheitsmeldungen: [SECURITY.md](SECURITY.md)
+- Verhaltenskodex: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Änderungsprotokoll: [CHANGELOG.md](CHANGELOG.md)

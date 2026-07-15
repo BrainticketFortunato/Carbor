@@ -1,6 +1,6 @@
 [project]
 name = "carbor"
-version = "1.0.2"
+version = "1.0.8"
 description = "Lokale Film- und Serienverwaltung für Linux"
 readme = "README.md"
 requires-python = ">=3.10"

@@ -6,7 +6,7 @@
 4. `scripts/init_git.sh` ausführen.
 5. GitHub-Repository als Ziel eintragen und `main` hochladen.
 6. Screenshots ergänzen, die keine privaten Dateinamen oder Pfade zeigen.
-7. Zunächst einen Beta-Release erstellen, z. B. `v1.0.3-beta.1`.
+7. Zunächst einen Beta-Release erstellen, z. B. `v1.0.8-beta.1`.
 8. Release-Archiv und SHA-256-Prüfsumme anhängen.
 9. Später DEB/AppImage nur nach realem Installationstest anhängen.
 

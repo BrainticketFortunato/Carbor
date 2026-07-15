@@ -1,6 +1,6 @@
 # Versionierung in Carbor
 
-Aktueller Stand: **1.0.3**
+Aktueller Stand: **1.0.8**
 
 ## Regel
 
@@ -14,18 +14,18 @@ Das gilt insbesondere für:
 - Skripte
 - Release-Archive
 
-Stabile Startdateien wie `src/carbor.py` bleiben absichtlich unversioniert.
+Stabile Startdateien wie `src/carbor_v108.py` bleiben absichtlich unversioniert.
 Sie verweisen ausschließlich auf die aktuelle versionierte Programmdatei.
 
 ## Namensschema
 
 - Python: `carbor_v103.py`
-- Hilfe: `Carbor-Hilfe-1.0.3.html`
-- Dokumente: `NAME-1.0.3.md`
-- Projektarchiv: `Carbor-1.0.3-Quellprojekt.zip`
+- Hilfe: `Carbor-Hilfe-1.0.8.html`
+- Dokumente: `NAME-1.0.8.md`
+- Projektarchiv: `Carbor-1.0.8-Quellprojekt.zip`
 
 ## Versionssprünge
 
-- Fehlerkorrektur: 1.0.3 → 1.0.4
+- Fehlerkorrektur: 1.0.8 → 1.0.4
 - neue kompatible Funktion: 1.0.x → 1.1.0
 - inkompatible Hauptänderung: 1.x → 2.0.0

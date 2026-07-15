@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Carbor 1.0.8 starten",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/carbor_v108.py",
+            "python": "/usr/bin/python3",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        }
+    ]
+}
