@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Carbor
+GenericName=Lokale Film- und Serienbibliothek
+Comment=Lokale Medienbibliothek mit VLC, Metadaten, Fortschritt und Playlists
+Exec=carbor
+Icon=carbor
+Terminal=false
+Categories=AudioVideo;Video;Player;Utility;
+Keywords=Film;Filme;Serie;Serien;Video;VLC;Bibliothek;Playlist;
+StartupNotify=true
+StartupWMClass=Carbor

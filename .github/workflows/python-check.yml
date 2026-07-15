@@ -1,0 +1,26 @@
+name: Python-Prüfung
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aktuelle Carbor-Datei syntaktisch prüfen
+        shell: bash
+        run: |
+          FILE="$(find src -maxdepth 1 -type f -name 'carbor_v*.py' | sort -V | tail -n 1)"
+          test -n "$FILE"
+          python -m py_compile "$FILE"

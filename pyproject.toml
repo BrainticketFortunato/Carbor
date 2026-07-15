@@ -1,0 +1,16 @@
+[project]
+name = "carbor"
+version = "1.0.2"
+description = "Lokale Film- und Serienverwaltung für Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "BrainticketFortunato" }]
+keywords = ["media", "films", "series", "vlc", "gtk", "linux"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: X11 Applications :: GTK",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+]

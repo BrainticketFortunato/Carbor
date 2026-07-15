@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Editor and operating system
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Carbor runtime data
+logs/
+log/
+cache/
+thumbnails/
+posters/
+screenshots/
+library.json
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+config.local.*
+settings.local.*
+secrets.*
+credentials.*
+*api_key*
+*apikey*
+*token*
+*.pem
+*.key
+
+# Build and release output
+build/
+dist/
+release/
+*.AppImage
+*.deb
+*.rpm
+
+# Backups and temporary files
+*_backup_*/
+backup/
+tmp/
+temp/

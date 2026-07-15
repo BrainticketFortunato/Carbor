@@ -1,0 +1,3 @@
+# PyGObject wird auf Debian/Ubuntu/Linux Mint über apt installiert:
+# sudo apt install python3-gi gir1.2-gtk-3.0
+# Carbor verwendet ansonsten überwiegend die Python-Standardbibliothek.

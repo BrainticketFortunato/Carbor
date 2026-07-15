@@ -1,0 +1,17 @@
+name: Funktionsvorschlag
+description: Verbesserung oder neue Funktion vorschlagen
+title: "[Vorschlag] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Gewünschte Lösung
+    validations:
+      required: true
